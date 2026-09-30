@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#16202b"/></marker></defs>
+<rect width="900" height="470" fill="#ffffff"/>
+<g stroke="#16202b" stroke-width="1.6" fill="#e9f1f8">
+<rect x="30" y="30" width="200" height="70" rx="6"/><rect x="350" y="30" width="200" height="70" rx="6"/><rect x="670" y="30" width="200" height="70" rx="6"/>
+<rect x="30" y="170" width="250" height="80" rx="6" fill="#fff6cc"/><rect x="325" y="170" width="250" height="80" rx="6" fill="#fff6cc"/><rect x="620" y="170" width="250" height="80" rx="6" fill="#fff6cc"/>
+<rect x="250" y="310" width="400" height="70" rx="6" fill="#e6f5ef"/>
+<rect x="30" y="405" width="840" height="44" rx="6" fill="#f3f4f6"/>
+</g>
+<g fill="none" stroke="#16202b" stroke-width="1.6" marker-end="url(#a)">
+<path d="M230,65 H350"/><path d="M550,65 H670"/><path d="M770,100 V135 H155 V170"/><path d="M770,135 H450 V170"/><path d="M770,135 H745 V170"/>
+<path d="M155,250 V280 H450 V310"/><path d="M450,250 V310"/><path d="M745,250 V280 H450 V310"/></g>
+<g font-size="15" text-anchor="middle" fill="#16202b">
+<text x="130" y="60" font-weight="bold">1. User input</text><text x="130" y="82" font-size="13">Paste text, PDF, DOCX, TXT</text>
+<text x="450" y="60" font-weight="bold">2. Text extraction</text><text x="450" y="82" font-size="13">pdf.js, mammoth.js, FileReader</text>
+<text x="770" y="60" font-weight="bold">3. Parser</text><text x="770" y="82" font-size="13">Sections, bullets, contact</text>
+<text x="155" y="203" font-weight="bold">4a. Skill matcher</text><text x="155" y="225" font-size="13">Alias dictionary, role or JD target</text>
+<text x="450" y="203" font-weight="bold">4b. Language checker</text><text x="450" y="225" font-size="13">Spelling, repeats, pronouns, weak verbs</text>
+<text x="745" y="203" font-weight="bold">4c. Impact analyser</text><text x="745" y="225" font-size="13">Action verbs, numbers, length, format</text>
+<text x="450" y="342" font-weight="bold">5. Scorer (100 points, 6 categories)</text><text x="450" y="364" font-size="13">Breakdown, tips, issue list with character offsets</text>
+<text x="450" y="432" font-size="14">6. Browser UI: score, marked-up resume, skills tab, suggestions, safe auto-fix</text></g>
+<path d="M450,380 V405" stroke="#16202b" stroke-width="1.6" marker-end="url(#a)" fill="none"/>
+</svg>

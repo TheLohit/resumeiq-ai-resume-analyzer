@@ -1,0 +1,52 @@
+:root{--ink:#16202b;--mute:#5a6776;--bg:#e8ecf1;--paper:#fff;--line:#cfd6df;--accent:#17476b;--good:#0d7a5f;--warn:#b7791f;--bad:#c62839;--mark:#ffe66d}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;font:16px/1.55 "IBM Plex Sans",system-ui,sans-serif;color:var(--ink);padding:0 16px 32px}
+.top{max-width:1180px;margin:0 auto;padding:36px 0 18px}
+h1{font:600 clamp(2.2rem,5vw,3.4rem)/1 "Newsreader",Georgia,serif;margin:0 0 10px;letter-spacing:-.01em}
+.top p{margin:0;max-width:62ch;color:var(--mute)}
+h2{font:600 1.35rem "Newsreader",Georgia,serif;margin:0 0 12px}
+.sr{position:absolute;left:-9999px}
+.grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:20px;align-items:start}
+.sheet,.out{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:20px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
+textarea,select{width:100%;font:inherit;color:inherit;border:1px solid var(--line);border-radius:4px;padding:10px;background:#fbfcfd}
+textarea#resume{font:14px/1.5 "IBM Plex Sans",monospace;resize:vertical}
+select{width:auto;min-width:220px}
+details{margin:12px 0}summary{cursor:pointer;color:var(--accent);font-weight:500;margin-bottom:8px}
+.btn{font:500 .95rem inherit;font-family:inherit;background:var(--accent);color:#fff;border:1px solid var(--accent);border-radius:4px;padding:9px 16px;cursor:pointer;display:inline-block}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:hover:not(:disabled){filter:brightness(1.12)}.btn:disabled{opacity:.45;cursor:not-allowed}
+:focus-visible{outline:3px solid #f2a900;outline-offset:2px}
+.status{min-height:1.4em;margin:6px 0 0;font-size:.9rem;color:var(--mute)}
+.placeholder{color:var(--mute);padding:40px 8px;text-align:center}
+.score{display:flex;gap:20px;align-items:center;border-bottom:2px solid var(--ink);padding-bottom:14px}
+.num{font:600 5rem/1 "Newsreader",Georgia,serif}.num small{font-size:1.4rem;color:var(--mute);margin-left:4px}
+.grade{margin:0;font:600 1.5rem "Newsreader",Georgia,serif}.sub{margin:2px 0 0;color:var(--mute);font-size:.9rem}
+.bars{display:grid;gap:10px;margin:16px 0}
+.bar b{display:flex;justify-content:space-between;font-weight:500;font-size:.92rem}
+.bar i{display:block;height:8px;background:#e6eaef;border-radius:4px;overflow:hidden;margin:4px 0}
+.bar i span{display:block;height:100%;background:var(--good)}
+.bar small{color:var(--mute);font-size:.82rem}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-top:8px}
+.tabs button{font:inherit;background:none;border:0;border-bottom:3px solid transparent;padding:10px 12px;cursor:pointer;color:var(--mute)}
+.tabs button[aria-selected=true]{color:var(--ink);border-color:var(--ink);font-weight:600}
+.pane{padding-top:14px}
+.paper{white-space:pre-wrap;word-wrap:break-word;font:15px/1.65 "Newsreader",Georgia,serif;background:#fffef9;border:1px solid var(--line);padding:18px;margin:0;max-height:520px;overflow:auto}
+mark{background:none;cursor:help;border-radius:2px;padding:0 1px}
+.i-spelling,.i-repeat{background:#fbd5d9;border-bottom:2px solid var(--bad)}
+.i-pronoun,.i-weak,.i-passive{background:var(--mark);border-bottom:2px solid var(--warn)}
+.i-case,.i-spacing{background:#d9e8f5;border-bottom:2px dotted var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:.85rem;margin-bottom:10px;color:var(--mute)}
+.legend mark{padding:1px 6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 16px;padding:0;list-style:none}
+.chips li{padding:3px 10px;border-radius:999px;font-size:.88rem;border:1px solid}
+.chips .ok{color:var(--good);border-color:var(--good);background:#e6f5ef}
+.chips .no{color:var(--bad);border-color:var(--bad);background:#fdeceb}
+.chips .ex{color:var(--accent);border-color:var(--accent);background:#e9f1f8}
+.pane h3{margin:14px 0 2px;font-size:1rem}.pane p{margin:0;color:var(--mute);font-size:.9rem}
+.tips{padding-left:20px;margin:0}.tips li{margin:0 0 10px}
+footer{max-width:1180px;margin:28px auto 0;color:var(--mute);font-size:.85rem}
+@media(max-width:860px){.grid{grid-template-columns:1fr}.num{font-size:4rem}}
+@media print{.sheet,.top,footer{display:none}.grid{display:block}.out{border:0}}
+@media(prefers-reduced-motion:no-preference){.bar i span{transition:width .6s ease}}

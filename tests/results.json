@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "file": "01_strong_genai.txt",
+      "role": "Generative AI Developer",
+      "score": 91,
+      "grade": "Strong",
+      "issues": 0,
+      "words": 205,
+      "falsePos": [],
+      "missed": []
+    },
+    {
+      "file": "02_strong_web.txt",
+      "role": "Web Developer",
+      "score": 93,
+      "grade": "Strong",
+      "issues": 0,
+      "words": 160,
+      "falsePos": [],
+      "missed": []
+    },
+    {
+      "file": "03_weak_messy.txt",
+      "role": "Web Developer",
+      "score": 23,
+      "grade": "Weak",
+      "issues": 21,
+      "words": 74,
+      "falsePos": [],
+      "missed": []
+    },
+    {
+      "file": "04_data_analyst.txt",
+      "role": "Data Analyst",
+      "score": 85,
+      "grade": "Strong",
+      "issues": 1,
+      "words": 131,
+      "falsePos": [],
+      "missed": []
+    },
+    {
+      "file": "05_fresher_short.txt",
+      "role": "Software Developer",
+      "score": 69,
+      "grade": "Good",
+      "issues": 0,
+      "words": 42,
+      "falsePos": [],
+      "missed": []
+    },
+    {
+      "file": "06_symbols_spacing.txt",
+      "role": "Software Developer",
+      "score": 83,
+      "grade": "Strong",
+      "issues": 4,
+      "words": 98,
+      "falsePos": [],
+      "missed": []
+    },
+    {
+      "file": "07_devops.txt",
+      "role": "DevOps Engineer",
+      "score": 87,
+      "grade": "Strong",
+      "issues": 0,
+      "words": 106,
+      "falsePos": [],
+      "missed": []
+    },
+    {
+      "file": "08_ml.txt",
+      "role": "Machine Learning Engineer",
+      "score": 86,
+      "grade": "Strong",
+      "issues": 1,
+      "words": 87,
+      "falsePos": [],
+      "missed": []
+    }
+  ],
+  "tp": 82,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1,
+  "recall": 1,
+  "f1": 1
+}

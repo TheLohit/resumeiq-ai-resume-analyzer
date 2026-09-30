@@ -1,0 +1,17 @@
+Dev Malhotra
+dev.malhotra@college.edu | +91 97777 88888 | github.com/devm
+
+Summary
+Machine learning student building classical and deep learning models.
+
+Skills
+Python, Machine Learning, Deep Learning, Pandas, NumPy, Scikit-learn, TensorFlow, SQL, Statistics, Computer Vision
+
+Projects
+- Trained a CNN with TensorFlow to classify 10 plant diseases with 93% accuracy.
+- Built a house price model with Scikit-learn, Pandas and NumPy reaching an R2 of 0.86.
+- Worked on a sentiment classifier.
+- Created a face mask detector with OpenCV running at 20 frames per second.
+
+Education
+B.Tech Computer Science, GHI Institute, 2026

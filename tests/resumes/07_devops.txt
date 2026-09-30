@@ -1,0 +1,21 @@
+Meera Joshi
+meera.joshi@college.edu | +91 93333 44444 | linkedin.com/in/meerajoshi | github.com/meeraj
+
+Summary
+Aspiring DevOps engineer with hands-on Linux, Docker and Kubernetes experience.
+
+Skills
+Linux, Docker, Kubernetes, AWS, Jenkins, Git, Terraform, Python, Bash
+
+Experience
+Cloud Intern, SkyOps, Jun 2025 - Sep 2025
+- Automated deployments with Jenkins pipelines, reducing release time from 2 hours to 25 minutes.
+- Provisioned 10 AWS EC2 instances with Terraform modules.
+- Migrated 6 services to Kubernetes and achieved 99.9% uptime over 3 months.
+- Monitored logs on Linux servers and resolved 18 incidents.
+
+Projects
+- Built a CI/CD pipeline for a Flask app using GitHub Actions and Docker.
+
+Education
+B.Tech Information Technology, UVW University, 2026

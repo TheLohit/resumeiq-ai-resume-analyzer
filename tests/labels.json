@@ -1,0 +1,10 @@
+{
+ "01_strong_genai.txt": {"role":"Generative AI Developer","skills":["Python","SQL","Git","FastAPI","Docker","LangChain","Generative AI","RAG","NLP","Prompt Engineering","Vector Database","Streamlit","REST API","LLM"]},
+ "02_strong_web.txt": {"role":"Web Developer","skills":["JavaScript","TypeScript","React","Node.js","Express","MongoDB","HTML","CSS","Tailwind","Git","REST API","Agile","Unit Testing","Next.js"]},
+ "03_weak_messy.txt": {"role":"Web Developer","skills":["HTML","CSS","JavaScript","Node.js","MySQL","GitHub","Python","Communication"]},
+ "04_data_analyst.txt": {"role":"Data Analyst","skills":["SQL","Excel","Power BI","Tableau","Python","Pandas","Statistics","Data Cleaning","Data Visualization"]},
+ "05_fresher_short.txt": {"role":"Software Developer","skills":["Java","C++","SQL","OOP","Data Structures","MySQL"]},
+ "06_symbols_spacing.txt": {"role":"Software Developer","skills":["Java","Spring Boot","MySQL","Docker","Git","REST API","OOP","Algorithms","Data Structures","Linux","Unit Testing"]},
+ "07_devops.txt": {"role":"DevOps Engineer","skills":["Linux","Docker","Kubernetes","AWS","CI/CD","Git","Terraform","Python","Flask","GitHub"]},
+ "08_ml.txt": {"role":"Machine Learning Engineer","skills":["Python","Machine Learning","Deep Learning","Pandas","NumPy","Scikit-learn","TensorFlow","SQL","Statistics","Computer Vision"]}
+}

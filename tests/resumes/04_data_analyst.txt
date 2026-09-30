@@ -1,0 +1,23 @@
+Karthik Iyer
+karthik.iyer@college.edu | 9988776655 | linkedin.com/in/karthik-iyer
+
+Profile
+Data analyst skilled in SQL, Excel and Power BI, turning messy sales data into decisions.
+
+Skills
+SQL, Excel, Power BI, Tableau, Python, Pandas, Statistics, Data Cleaning, Data Visualization
+
+Experience
+Data Analyst Intern, RetailMax, May 2025 - Jul 2025
+- Cleaned and merged 8 sales files with Pandas, removing 1,200 duplicate records.
+- Built a Power BI dashboard tracking 15 KPIs used by the regional manager.
+- Responsible for weekly reporting of store performance.
+- Analyzed customer churn using SQL and found a 14% drop among first-time buyers.
+- Presented findings to 10 stakeholders and recommended two pricing changes.
+
+Projects
+- Sales forecasting with Python and statistical models reaching 88% accuracy on hold-out data.
+- Created a Tableau dashboard for city-wise COVID trends.
+
+Education
+B.Sc. in Statistics, PQR College, 2025

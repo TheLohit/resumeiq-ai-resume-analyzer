@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ResumeIQ - AI Resume Analyzer</title>
+<meta name="description" content="Upload a resume and get an ATS score, missing skills, grammar corrections and improvement suggestions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<header class="top">
+  <h1>ResumeIQ</h1>
+  <p>Paste or upload a resume. Get an ATS score, skill gaps, grammar fixes and a marked-up copy, all in your browser. Nothing is uploaded to a server.</p>
+</header>
+
+<main class="grid">
+  <section class="sheet" aria-labelledby="in-h">
+    <h2 id="in-h">Your resume</h2>
+    <div class="row">
+      <label class="btn ghost" for="file">Upload PDF, DOCX or TXT</label>
+      <input id="file" type="file" accept=".pdf,.docx,.txt" hidden>
+      <button class="btn ghost" id="s-good" type="button">Sample: strong</button>
+      <button class="btn ghost" id="s-bad" type="button">Sample: weak</button>
+    </div>
+    <textarea id="resume" rows="18" spellcheck="false" placeholder="Paste your resume text here..."></textarea>
+    <p id="status" class="status" role="status"></p>
+    <div class="row">
+      <label for="role">Target role</label>
+      <select id="role"></select>
+    </div>
+    <details>
+      <summary>Match against a job description (optional)</summary>
+      <textarea id="jd" rows="6" placeholder="Paste the job description. Skills in it become the target."></textarea>
+    </details>
+    <div class="row">
+      <button class="btn" id="go" type="button">Analyze resume</button>
+      <button class="btn ghost" id="fix" type="button" disabled>Apply safe fixes</button>
+    </div>
+  </section>
+
+  <section class="out" aria-live="polite" aria-labelledby="out-h">
+    <h2 id="out-h" class="sr">Results</h2>
+    <div id="empty" class="placeholder">Results appear here. Try one of the samples to see how the marked-up view works.</div>
+    <div id="result" hidden>
+      <div class="score">
+        <div class="num"><span id="sc">0</span><small>/100</small></div>
+        <div><p class="grade" id="gr"></p><p class="sub" id="src"></p></div>
+      </div>
+      <div id="bars" class="bars"></div>
+      <div class="tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-t="mark">Marked-up resume</button>
+        <button role="tab" aria-selected="false" data-t="skills">Skills</button>
+        <button role="tab" aria-selected="false" data-t="tips">Suggestions</button>
+      </div>
+      <div id="t-mark" class="pane"><div class="legend" id="legend"></div><pre id="marked" class="paper"></pre></div>
+      <div id="t-skills" class="pane" hidden></div>
+      <div id="t-tips" class="pane" hidden></div>
+    </div>
+  </section>
+</main>
+<footer>ResumeIQ - Generative AI capstone project 2026. Scores are heuristic guidance, not a guarantee of how any employer's ATS will rank you.</footer>
+<script src="src/engine.js"></script>
+<script src="src/samples.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>

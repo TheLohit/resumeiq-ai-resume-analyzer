@@ -1,0 +1,13 @@
+Sneha Patil
+sneha.patil@college.edu
++91 90000 11111
+
+Education
+B.Tech Computer Science, LMN University, 2026
+
+Skills
+Java, C++, SQL, OOP, Data Structures
+
+Projects
+- Built a library management system in Java with MySQL for 500 records.
+- Created a tic tac toe game in C++.

@@ -1,0 +1,19 @@
+Arjun Nair
+arjun.nair@college.edu  |  +91 95555 66666  |  github.com/arjunnair
+
+Summary
+Backend developer with experience in Java and Spring Boot.
+
+Skills
+Java, Spring Boot, MySQL, Docker, Git, REST API, OOP, Algorithms, Data Structures, Linux
+
+Experience
+Software Intern, TechNest, 2025
+ Developed REST API endpoints in Spring Boot for an inventory module handling 2,000 items.
+ Optimized MySQL queries and reduced report time from 9 seconds to 3 seconds.
+ Containerized the service with Docker, cutting deployment time by 50%.
+ Wrote JUnit tests covering 70% of service classes.
+ Fixed 25 production bugs across two releases.
+
+Education
+B.Tech Computer Science, RST Institute, 2025

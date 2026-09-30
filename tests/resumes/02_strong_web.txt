@@ -1,0 +1,24 @@
+Rahul Mehta
+rahul.mehta@college.edu | +91 91234 56789 | github.com/rahulm | linkedin.com/in/rahulmehta
+
+Professional Summary
+Full-stack web developer who ships responsive React and Node.js applications backed by MongoDB.
+
+Technical Skills
+JavaScript, TypeScript, React, Node.js, Express, MongoDB, HTML, CSS, Tailwind, Git, REST API, Agile
+
+Experience
+Web Development Intern, PixelForge, Jan 2025 - Jun 2025
+- Built 12 reusable React components that cut page build time by 40%.
+- Developed REST APIs with Express and MongoDB serving 5,000 daily requests.
+- Improved Lighthouse performance score from 62 to 91 by lazy loading images.
+- Collaborated in Agile sprints with 6 developers using Git and pull request reviews.
+- Wrote unit tests with Jest that raised coverage to 78%.
+
+Projects
+- Created an e-commerce app with cart, payments and admin dashboard for 300+ test users.
+- Launched a portfolio site with Tailwind CSS and Next.js that loads in under 1.5 seconds.
+- Implemented JWT authentication and role-based access for a student portal.
+
+Education
+B.E. in Information Technology, XYZ College of Engineering, 2025

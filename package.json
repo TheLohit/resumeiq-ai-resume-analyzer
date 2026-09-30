@@ -1,0 +1,12 @@
+{
+  "name": "resumeiq-ai-resume-analyzer",
+  "version": "1.0.0",
+  "description": "ResumeIQ: browser-based AI Resume Analyzer with ATS score, skill gaps, grammar fixes and suggestions",
+  "scripts": {
+    "test": "node --test tests/engine.test.js",
+    "evaluate": "node tests/evaluate.js",
+    "benchmark": "node tests/benchmark.js",
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}
